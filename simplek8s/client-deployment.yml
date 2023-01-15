@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: nanamin0220/multi-docker-worker
+          image: nanamin0220/multi-docker-client
           resources:
             limits:
               memory: "128Mi"
